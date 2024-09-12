@@ -1,0 +1,111 @@
+@import url("reset.css");
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.header {
+  margin-bottom: 100px;
+}
+
+.header-menu {
+  background: #b06c6c;
+}
+
+.header-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header-list > li {
+  position: relative;
+}
+
+.header-list > li > a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 15px;
+}
+
+.second-header-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+.second-header-list li {
+  background: #b06c6c;
+}
+
+.second-header-list > li > a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+
+  padding: 15px;
+}
+
+.second-header-list > li:first-child {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.second-header-list > li:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+.second-header-list > li:nth-child(3) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+.second-header-list > li:last-child {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.header-list li:hover .second-header-list {
+  display: block;
+}
+
+.amelia-relative {
+  position: relative;
+}
+
+.header-amelia {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  display: none;
+}
+
+.header-amelia a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  outline: 1px solid black;
+}
+
+.second-header-list li:hover .header-amelia {
+  display: block;
+}
+
+.second-header-list li:last-child:hover {
+  border-left: none;
+}
