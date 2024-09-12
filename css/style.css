@@ -1,16 +1,19 @@
 @import url("reset.css");
 
+body {
+  font-family: 'Protest Guerrilla';
+  font-weight: normal;
+}
+
 .container {
   max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
   font-size: 20px;
   font-weight: 800;
+  
 }
 
-.header {
-  margin-bottom: 100px;
-}
 
 .header-menu {
   background: #b06c6c;
@@ -32,6 +35,7 @@
   text-transform: uppercase;
   display: block;
   padding: 15px 15px;
+  
 }
 
 .second-header-list {
@@ -51,7 +55,9 @@
   text-transform: uppercase;
   display: block;
   text-align: center;
-
+  font-family: 'Fascinate Inline';
+  font-weight: 900;
+    font-display: swap;
   padding: 15px;
 }
 
@@ -100,6 +106,8 @@
   text-align: center;
   padding: 15px;
   outline: 1px solid black;
+  font-family: 'Playwrite CU';
+font-weight: 300;
 }
 
 .second-header-list li:hover .header-amelia {
